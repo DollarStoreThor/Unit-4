@@ -9,11 +9,15 @@
 
 Problem Statement  
 
-    Imagine you are a real estate analyst. You have been provided with the coordinates (latitude and longitude) of various properties in a city. Your task is to calculate the distances between these properties to understand the spatial distribution and proximity of properties to each other. The distance metrics you should consider are: 
+    Imagine you are a real estate analyst. You have been provided with the coordinates (latitude and longitude) of various properties in a city. 
+    Your task is to calculate the distances between these properties to understand the spatial distribution and proximity of properties to each other. 
+    
+    The distance metrics you should consider are: 
     
     Euclidean Distance 
     Manhattan (City block) Distance
     Minkowski Distance 
+    
     Using these distance metrics, you can determine which properties are closest to each other and how they are spread across the city. 
 
 Data:  
@@ -21,9 +25,7 @@ Data:
     The dataset contains the following columns: 
     
     Property_ID: A unique identifier for each property 
-    
     Latitude: Latitude of the property 
-    
     Longitude: Longitude of the property 
 
 Goals: 
