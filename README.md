@@ -26,14 +26,6 @@ Goals:
 
 ###    Block 24 Workshop - Hyperparameter Tuning
 
-Scenario:
-
-    You are a data scientist working for a financial institution seeking to improve its credit risk assessment process. The institution processes a substantial volume of loan applications and wants to optimize its decision-making by adopting machine learning techniques. Your task is to fine-tune a classification model to enhance its ability to predict whether a loan applicant will likely default on their loan payments. 
-    
-Problem Statement:
-    
-    The financial institution you are employed at is keen on leveraging advanced machine learning techniques to make more accurate credit risk assessments. Given a dataset containing historical loan application data along with various applicant attributes, your objective is to optimize the performance of a Decision Tree Classifier through hyperparameter tuning. 
-
 Goals: 
 
     1. Import the necessary libraries and generate a synthetic classification dataset using make_classification from sklearn.datasets. 
@@ -55,6 +47,28 @@ Goals:
     9. Using accuracy_score from sklearn.metrics. 
     
     10. Determine Best hyperparameters
+
+
+###    Block 25 Workshop - Regression and Its Applications
+
+Goals:
+
+1. Import the required libraries for data preparation and visualization. 
+2. Read the input dataset and use visualizations to understand the data. 
+3. Create a function create_ingredient_df() to analyze the ingredients used in each type of cuisine.
+4. Prepare the data for regression. 
+5. Train a logistic regression model. 
+6. Make predictions with the model and evaluate the results. 
+
+
+
+###    Block 26 Workshop - 
+###    Block 27 Workshop - 
+###    Block 28 Workshop - 
+###    Block 29 Workshop - 
+###    Block 30 Workshop - 
+###    Block 31 Workshop - 
+###    Block 32 Workshop - 
    
     
    
