@@ -116,6 +116,14 @@ Visualize the data to get insights into the distribution of key variables and th
        - Check the accuracy and performance of the model on a test set to ensure reliability.
    
        - Use classification_report from sklearn.metrics.
+   
+                         precision    recall  f1-score   support
+
+           0               0.79      0.90      0.84        29
+           1               0.89      0.78      0.83        32
+        accuracy                               0.84        61
+        macro avg          0.84      0.84      0.84        61
+        weighted avg       0.84      0.84      0.84        61
   
 ###    Block 27 Workshop - 
 ###    Block 28 Workshop - 
