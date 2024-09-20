@@ -193,10 +193,14 @@ Visualize the data to get insights into the distribution of key variables and th
 
         - Use classification_report from sklearn.metrics.
 
-Confusion Matrix Before Hyperparameter Tuning
+Confusion Matrix Before Hyperparameter Tuning:
+
 ![Final Model Confusion Matrix Before Hyperparameter Tuning](https://github.com/user-attachments/assets/b5f81c66-8bc3-4bd5-94ca-39b98ed1393f)
+
 ![Confusion Matrix before and after Hyperparameter](https://github.com/user-attachments/assets/02abeb25-8f6f-484a-a059-9285eddef408)
-Confusion Matrix After Hyperparameter Tuning
+
+Confusion Matrix After Hyperparameter Tuning:
+
 ![Final Model Confusion Matrix After Hyperparameter Tuning](https://github.com/user-attachments/assets/948aa258-11f3-4227-81c9-40679bcaaf4d)
 
 
