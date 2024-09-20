@@ -206,6 +206,36 @@ Confusion Matrix After Hyperparameter Tuning:
 
 
 ###    Block 28 Workshop - 
+
+Goals:  
+
+        1. Import packages import pandas as pd, import pyplot as plt, from sklearn.cluster import KMeans, and from sklearn.metrics import silhouette_score.
+        
+        2. Load the dataset.
+        
+        3. Check for missing values using the isnull() method.
+        
+        4. Select the relevant features and standardize the data.
+        
+        5. Choose the optimal K value and determine it using the elbow method.
+        
+        6. Plot the elbow curve using the plot loop through K values and calculate silhouette scores.
+        
+        7. Initialize K-means, fit the model, and assign cluster labels.
+        
+        8. Calculate cluster centers using inverse() method, and save the result in a DataFrame.
+        
+        9. Create a scatter plot to visualize the clusters and centroids.
+        
+        10. Loop through clusters to extract insights for each cluster.
+        
+        11. Display the summary statistics for each cluster (e.g., number of customers, average annual income, average spending score, etc.).
+        
+        12. Add the cluster labels to the original data and adjust cluster labels to start from 1.
+        
+        13. Compute summary statistics for each cluster using the groupby() method.
+    
+    
 ###    Block 29 Workshop - 
 ###    Block 30 Workshop - 
 ###    Block 31 Workshop - 
