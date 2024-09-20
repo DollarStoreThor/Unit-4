@@ -69,7 +69,7 @@ Goals:
 ![common ingredients](https://github.com/user-attachments/assets/b13c093a-7e63-4de0-a752-ead6edace47c)
 
 
-###    Block 26 Workshop - 
+###    Block 26 Workshop - Regression and Applications Part I
 
 1. Exploratory Data Analysis (EDA):    
    Understand the data, check for missing values, and get a dataset summary.
