@@ -70,6 +70,53 @@ Goals:
 
 
 ###    Block 26 Workshop - 
+
+1. Exploratory Data Analysis (EDA):    
+   Understand the data, check for missing values, and get a dataset summary.
+
+        - Use pandas to load the CSV dataset into a DataFrame. 
+        
+        - Display the initial rows using the head() method to get a glimpse of the data. 
+        
+        - Use the describe() method to get a summary of the dataset. 
+        
+        - Check for missing values using the isnull() and sum() methods. 
+
+2. Data Visualization:
+Visualize the data to get insights into the distribution of key variables and their relationship with the likelihood of having AHD.
+
+        - Utilize seaborn and matplotlib for visualizing the distribution of key variables and their relationships with the target variable 'AHD'.
+
+![chestpain type vs AHD - boxplot](https://github.com/user-attachments/assets/9e7c9c40-7b97-4d71-80b6-f745391ea74b)
+![chestpain type vs AHD - violin plot](https://github.com/user-attachments/assets/d63636c2-fdfc-4fdc-9015-579e80179922)
+![chestpain type vs AHD](https://github.com/user-attachments/assets/56a891bb-b38c-4677-a017-716e2b95f6c9)
+![Correlationonal Heatmap with dendrogram groupings of AHD](https://github.com/user-attachments/assets/8a7cbac2-7834-4cf1-bf5c-22ccbca3333a)
+![Correlationonal Grid](https://github.com/user-attachments/assets/31939b55-82c0-44e5-8bfe-19e4dca26963)
+
+
+4. Data Cleaning and Preprocessing: 
+
+        - Handle any missing values or anomalies and process the data to make it suitable for machine learning models. 
+        
+        - Encode the categorical variables using LabelEncoder from sklearn.preprocessing to convert them into numeric form so they can be used in machine learning algorithms. 
+        
+        - Split the dataset into training and testing sets using train_test_split. 
+        
+        - Scale the features to have a zero mean and unit variance using StandardScaler to ensure optimal performance of the Gaussian Naive Bayes algorithm. 
+
+5. Model Development:
+   Choose an appropriate machine learning algorithm and train the model.
+    
+        - Initialize the Gaussian Naive Bayes classifier. 
+
+        - Train the model using the scaled training data. 
+
+6. Model Evaluation:
+
+       - Check the accuracy and performance of the model on a test set to ensure reliability.
+   
+       - Use classification_report from sklearn.metrics.
+  
 ###    Block 27 Workshop - 
 ###    Block 28 Workshop - 
 ###    Block 29 Workshop - 
