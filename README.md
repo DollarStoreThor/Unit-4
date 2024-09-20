@@ -146,6 +146,20 @@ Visualize the data to get insights into the distribution of key variables and th
         - Fix the imbalanced dataset using the oversampling method.
         - Use RandomOverSampler from imblearn.over_sampling. 
         - Split the predictor and target variables and fit them using fit().
+    ![Class imbalance in inital dataset for our desired prediction](https://github.com/user-attachments/assets/007541ef-f692-462d-aa2f-6a7fbf61a74d)
+   ![Dataset Age distribution](https://github.com/user-attachments/assets/257dcbe7-9895-434f-a879-fca30563d43a)
+   ![Dataset Age and Working Class distribution - Violin Plot](https://github.com/user-attachments/assets/eae1c3cc-2632-49bb-96cc-ed7010de214a)
+    ![Age count - Hue 50k or more](https://github.com/user-attachments/assets/8ec35a80-81b6-488a-97d2-84b5532dc8be)
+    ![Education - Hue 50k or more](https://github.com/user-attachments/assets/285d0bf8-eb78-4509-bcf2-f48f64a85dc4)
+    ![Eductaion type - hue of 50k or more](https://github.com/user-attachments/assets/2f329ca7-22b5-43ca-92b1-7d2d1e619a11)
+    ![Eductaion vs count - hue of 50k or more](https://github.com/user-attachments/assets/2b3d39dd-e256-4aab-a931-f3e0e892dee4)
+
+    ![Dataset Age and Eductaion distribution - Scatter Plot](https://github.com/user-attachments/assets/ee3372bf-1e59-480e-a469-174480438d46)
+    
+    ![Correlational Heatmap between numeric Datatypes](https://github.com/user-attachments/assets/e1ec9634-bcb7-4daf-8edb-a9cf9b92fec1)
+
+
+
 
 4. Model Selection and Training:
 
@@ -155,29 +169,36 @@ Visualize the data to get insights into the distribution of key variables and th
         
         - Use .fit() to fit the training data.
 
-5. Model Evaluation:
+6. Model Evaluation:
 
    Evaluate model accuracy and F1 score.
 
         - Import the models from sklearn.metrics.    
 
-6. Hyperparameter Tuning:
+7. Hyperparameter Tuning:
 
    Optimize model hyperparameters for improved performance.
    
 8. Model Comparison and Insights:
 
    Compare algorithm performance and provide insights on strengths and weaknesses.
+
+![Comparing Model Performance - Higher is better](https://github.com/user-attachments/assets/5b455625-b85a-42c6-8509-d99018d82ceb)
+
+    - AUC Model Performace informs us that the Random Forest Classifier, using the Random Oversampling performed the best compared to all other models.
    
-10. Visualization and Reporting:
+9. Visualization and Reporting:
 
      Create visualizations and a comprehensive report.
 
         - Use classification_report from sklearn.metrics.
 
-9. Final Model Selection:
+Confusion Matrix Before Hyperparameter Tuning
+![Final Model Confusion Matrix Before Hyperparameter Tuning](https://github.com/user-attachments/assets/b5f81c66-8bc3-4bd5-94ca-39b98ed1393f)
+![Confusion Matrix before and after Hyperparameter](https://github.com/user-attachments/assets/02abeb25-8f6f-484a-a059-9285eddef408)
+Confusion Matrix After Hyperparameter Tuning
+![Final Model Confusion Matrix After Hyperparameter Tuning](https://github.com/user-attachments/assets/948aa258-11f3-4227-81c9-40679bcaaf4d)
 
-   Create a report summarizing the details of the finalized model for RetailCo.
 
 
 ###    Block 28 Workshop - 
