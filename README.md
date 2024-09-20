@@ -22,6 +22,7 @@ Goals:
     2. Calculating distances using three distance metrics.
     
     3. Determining the closest 5 properties to a given.
+        
 
 ###    Block 24 Workshop - Hyperparameter Tuning
 
