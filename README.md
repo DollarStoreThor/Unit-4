@@ -66,6 +66,8 @@ Goals:
     6. Make predictions with the model and evaluate the results. 
 
 
+![common ingredients](https://github.com/user-attachments/assets/b13c093a-7e63-4de0-a752-ead6edace47c)
+
 
 ###    Block 26 Workshop - 
 ###    Block 27 Workshop - 
