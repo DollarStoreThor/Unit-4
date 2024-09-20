@@ -88,9 +88,13 @@ Visualize the data to get insights into the distribution of key variables and th
         - Utilize seaborn and matplotlib for visualizing the distribution of key variables and their relationships with the target variable 'AHD'.
 
 ![chestpain type vs AHD - boxplot](https://github.com/user-attachments/assets/9e7c9c40-7b97-4d71-80b6-f745391ea74b)
+
 ![chestpain type vs AHD - violin plot](https://github.com/user-attachments/assets/d63636c2-fdfc-4fdc-9015-579e80179922)
+
 ![chestpain type vs AHD](https://github.com/user-attachments/assets/56a891bb-b38c-4677-a017-716e2b95f6c9)
+
 ![Correlationonal Heatmap with dendrogram groupings of AHD](https://github.com/user-attachments/assets/8a7cbac2-7834-4cf1-bf5c-22ccbca3333a)
+
 ![Correlationonal Grid](https://github.com/user-attachments/assets/31939b55-82c0-44e5-8bfe-19e4dca26963)
 
 
@@ -146,17 +150,23 @@ Visualize the data to get insights into the distribution of key variables and th
         - Fix the imbalanced dataset using the oversampling method.
         - Use RandomOverSampler from imblearn.over_sampling. 
         - Split the predictor and target variables and fit them using fit().
-    ![Class imbalance in inital dataset for our desired prediction](https://github.com/user-attachments/assets/007541ef-f692-462d-aa2f-6a7fbf61a74d)
+   ![Class imbalance in inital dataset for our desired prediction](https://github.com/user-attachments/assets/007541ef-f692-462d-aa2f-6a7fbf61a74d)
+   
    ![Dataset Age distribution](https://github.com/user-attachments/assets/257dcbe7-9895-434f-a879-fca30563d43a)
+   
    ![Dataset Age and Working Class distribution - Violin Plot](https://github.com/user-attachments/assets/eae1c3cc-2632-49bb-96cc-ed7010de214a)
-    ![Age count - Hue 50k or more](https://github.com/user-attachments/assets/8ec35a80-81b6-488a-97d2-84b5532dc8be)
-    ![Education - Hue 50k or more](https://github.com/user-attachments/assets/285d0bf8-eb78-4509-bcf2-f48f64a85dc4)
-    ![Eductaion type - hue of 50k or more](https://github.com/user-attachments/assets/2f329ca7-22b5-43ca-92b1-7d2d1e619a11)
-    ![Eductaion vs count - hue of 50k or more](https://github.com/user-attachments/assets/2b3d39dd-e256-4aab-a931-f3e0e892dee4)
+   
+   ![Age count - Hue 50k or more](https://github.com/user-attachments/assets/8ec35a80-81b6-488a-97d2-84b5532dc8be)
+   
+   ![Education - Hue 50k or more](https://github.com/user-attachments/assets/285d0bf8-eb78-4509-bcf2-f48f64a85dc4)
+   
+   ![Eductaion type - hue of 50k or more](https://github.com/user-attachments/assets/2f329ca7-22b5-43ca-92b1-7d2d1e619a11)
+   
+   ![Eductaion vs count - hue of 50k or more](https://github.com/user-attachments/assets/2b3d39dd-e256-4aab-a931-f3e0e892dee4)
 
-    ![Dataset Age and Eductaion distribution - Scatter Plot](https://github.com/user-attachments/assets/ee3372bf-1e59-480e-a469-174480438d46)
+   ![Dataset Age and Eductaion distribution - Scatter Plot](https://github.com/user-attachments/assets/ee3372bf-1e59-480e-a469-174480438d46)
     
-    ![Correlational Heatmap between numeric Datatypes](https://github.com/user-attachments/assets/e1ec9634-bcb7-4daf-8edb-a9cf9b92fec1)
+   ![Correlational Heatmap between numeric Datatypes](https://github.com/user-attachments/assets/e1ec9634-bcb7-4daf-8edb-a9cf9b92fec1)
 
 
 
@@ -221,16 +231,25 @@ Goals:
         
         6. Plot the elbow curve using the plot loop through K values and calculate silhouette scores.
 ![Kmeans - 1 group](https://github.com/user-attachments/assets/ccc6ee7f-c2eb-4cd6-b8a8-d583da351140)
+
 ![Kmeans - 2 Clusters](https://github.com/user-attachments/assets/4a603efa-587b-491b-8d62-21ea4c2b8bbf)
+
 ![Kmeans - 3 Clusters](https://github.com/user-attachments/assets/bedcf8fb-4de9-4a73-9188-3209ed7a67e9)
+
 ![Kmeans - 4 Clusters](https://github.com/user-attachments/assets/bd994c39-ebca-4ad4-8011-b18ce0d27758)
+
 ![Kmeans - 5 Clusters](https://github.com/user-attachments/assets/af98dcf7-9a70-4901-8b6c-8a90b0cf5c44)
+
 ![Kmeans - 6 Clusters](https://github.com/user-attachments/assets/5bddd975-f6ce-429f-b9d9-c6b74da22445)
+
 ![Kmeans - 7 Clusters](https://github.com/user-attachments/assets/eda868b7-cd3a-46e0-bb3c-4c2f08b931d6)
+
 ![Kmeans - 8 Clusters](https://github.com/user-attachments/assets/2a612bfe-836d-460a-b717-e9b481cb621f)
+
 ![Kmeans - 9 Clusters](https://github.com/user-attachments/assets/5474ffb8-a495-454a-a287-28b69d058e44)
 
 ![Elbow Method - Distortions](https://github.com/user-attachments/assets/3987e64d-72f6-47a5-b3f9-5a633ce89130)
+
 ![Dendrogram 5 clusters](https://github.com/user-attachments/assets/6e116efc-77fa-49a7-83d1-6902a8adc352)
 
 
@@ -247,7 +266,9 @@ Goals:
         11. Display the summary statistics for each cluster (e.g., number of customers, average annual income, average spending score, etc.).
 
 ![Parirplot wiht clusters as the hue](https://github.com/user-attachments/assets/1d21a0e8-324a-447c-a832-0b02a6763c9d)
+
 ![Joing plot wiht spending score, age, and kmeans cluster as hue](https://github.com/user-attachments/assets/d1d587b6-9558-4d22-87a6-96593048dfb4)
+
 ![KDE Anual income vs Spending score - histogram side plot](https://github.com/user-attachments/assets/5b24f9d4-ad18-4343-a3a1-6eeef2947dc6)
 
         12. Add the cluster labels to the original data and adjust cluster labels to start from 1.
@@ -268,7 +289,9 @@ Goals:
     
     5. Perform PCA with two principal components to visualize clustering.     
 ![Heat map of Covariance features from PCA](https://github.com/user-attachments/assets/6eb60b5e-5c2d-45c4-a104-3d3000a572b1)
+
 ![2D Two Principal Components](https://github.com/user-attachments/assets/05089dc4-2505-41ec-a2b8-144e35e991c1)
+
 ![3D Three Principal Components](https://github.com/user-attachments/assets/cd9d4c6a-966d-455b-835a-1a0a0fb38e44)
     
     6. Perform K-means clustering on the two-component PCA-transformed data with clusters ranging from 2 to 11 and plot the K-means inertia against the number of clusters. (Use numpy, scikit-learn, and matplotlib libraries.) 
