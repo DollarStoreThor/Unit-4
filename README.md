@@ -220,21 +220,41 @@ Goals:
         5. Choose the optimal K value and determine it using the elbow method.
         
         6. Plot the elbow curve using the plot loop through K values and calculate silhouette scores.
-        
+![Kmeans - 1 group](https://github.com/user-attachments/assets/ccc6ee7f-c2eb-4cd6-b8a8-d583da351140)
+![Kmeans - 2 Clusters](https://github.com/user-attachments/assets/4a603efa-587b-491b-8d62-21ea4c2b8bbf)
+![Kmeans - 3 Clusters](https://github.com/user-attachments/assets/bedcf8fb-4de9-4a73-9188-3209ed7a67e9)
+![Kmeans - 4 Clusters](https://github.com/user-attachments/assets/bd994c39-ebca-4ad4-8011-b18ce0d27758)
+![Kmeans - 5 Clusters](https://github.com/user-attachments/assets/af98dcf7-9a70-4901-8b6c-8a90b0cf5c44)
+![Kmeans - 6 Clusters](https://github.com/user-attachments/assets/5bddd975-f6ce-429f-b9d9-c6b74da22445)
+![Kmeans - 7 Clusters](https://github.com/user-attachments/assets/eda868b7-cd3a-46e0-bb3c-4c2f08b931d6)
+![Kmeans - 8 Clusters](https://github.com/user-attachments/assets/2a612bfe-836d-460a-b717-e9b481cb621f)
+![Kmeans - 9 Clusters](https://github.com/user-attachments/assets/5474ffb8-a495-454a-a287-28b69d058e44)
+
+![Elbow Method - Distortions](https://github.com/user-attachments/assets/3987e64d-72f6-47a5-b3f9-5a633ce89130)
+![Dendrogram 5 clusters](https://github.com/user-attachments/assets/6e116efc-77fa-49a7-83d1-6902a8adc352)
+
+
         7. Initialize K-means, fit the model, and assign cluster labels.
         
         8. Calculate cluster centers using inverse() method, and save the result in a DataFrame.
         
         9. Create a scatter plot to visualize the clusters and centroids.
         
+![Optimal K means cluter groupings](https://github.com/user-attachments/assets/cf5af08f-a63a-4912-8bc6-44faa25b8a74)
+
         10. Loop through clusters to extract insights for each cluster.
         
         11. Display the summary statistics for each cluster (e.g., number of customers, average annual income, average spending score, etc.).
-        
+
+![Parirplot wiht clusters as the hue](https://github.com/user-attachments/assets/1d21a0e8-324a-447c-a832-0b02a6763c9d)
+![Joing plot wiht spending score, age, and kmeans cluster as hue](https://github.com/user-attachments/assets/d1d587b6-9558-4d22-87a6-96593048dfb4)
+![KDE Anual income vs Spending score - histogram side plot](https://github.com/user-attachments/assets/5b24f9d4-ad18-4343-a3a1-6eeef2947dc6)
+
         12. Add the cluster labels to the original data and adjust cluster labels to start from 1.
         
         13. Compute summary statistics for each cluster using the groupby() method.
-    
+
+
     
 ###    Block 29 Workshop - Unsupervised Learning Part II
 ###    Block 30 Workshop - 
