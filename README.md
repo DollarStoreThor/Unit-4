@@ -257,6 +257,23 @@ Goals:
 
     
 ###    Block 29 Workshop - Unsupervised Learning Part II
+
+    1. Load the dataset.
+    
+    2. Check for null values and handle those values. 
+    
+    3. Perform feature scaling using StandardScaler().
+    
+    4. Perform PCA on the scaled data.    
+    
+    5. Perform PCA with two principal components to visualize clustering.     
+    
+    6. Perform K-means clustering on the two-component PCA-transformed data with clusters ranging from 2 to 11 and plot the K-means inertia against the number of clusters. (Use numpy, scikit-learn, and matplotlib libraries.) 
+    
+    7. Perform K-means clustering on the two-component PCA-transformed data with the ideal number of clusters found in the previous step. (Use scikit-learn and matplotlib libraries.)
+    
+    8. Visualize the clusters on a scatter plot between the first PCA and second PCA components, giving different colors to each cluster. 
+
 ###    Block 30 Workshop - 
 ###    Block 31 Workshop - 
 ###    Block 32 Workshop - 
