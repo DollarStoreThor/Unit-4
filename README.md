@@ -267,12 +267,22 @@ Goals:
     4. Perform PCA on the scaled data.    
     
     5. Perform PCA with two principal components to visualize clustering.     
+![Heat map of Covariance features from PCA](https://github.com/user-attachments/assets/6eb60b5e-5c2d-45c4-a104-3d3000a572b1)
+![2D Two Principal Components](https://github.com/user-attachments/assets/05089dc4-2505-41ec-a2b8-144e35e991c1)
+![3D Three Principal Components](https://github.com/user-attachments/assets/cd9d4c6a-966d-455b-835a-1a0a0fb38e44)
     
     6. Perform K-means clustering on the two-component PCA-transformed data with clusters ranging from 2 to 11 and plot the K-means inertia against the number of clusters. (Use numpy, scikit-learn, and matplotlib libraries.) 
+![Inertia Elbow Method](https://github.com/user-attachments/assets/c1963880-56e1-4983-aaab-9302449c665b)
+
     
     7. Perform K-means clustering on the two-component PCA-transformed data with the ideal number of clusters found in the previous step. (Use scikit-learn and matplotlib libraries.)
-    
+![6 Cluster Kmeans Applied to PCA](https://github.com/user-attachments/assets/fbf01230-c5bc-4e11-b40e-a59edf1181fe)
+
     8. Visualize the clusters on a scatter plot between the first PCA and second PCA components, giving different colors to each cluster. 
+
+
+
+
 
 ###    Block 30 Workshop - 
 ###    Block 31 Workshop - 
