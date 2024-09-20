@@ -205,7 +205,7 @@ Confusion Matrix After Hyperparameter Tuning:
 
 
 
-###    Block 28 Workshop - 
+###    Block 28 Workshop - Unsupervised Learning Part I
 
 Goals:  
 
@@ -236,7 +236,7 @@ Goals:
         13. Compute summary statistics for each cluster using the groupby() method.
     
     
-###    Block 29 Workshop - 
+###    Block 29 Workshop - Unsupervised Learning Part II
 ###    Block 30 Workshop - 
 ###    Block 31 Workshop - 
 ###    Block 32 Workshop - 
