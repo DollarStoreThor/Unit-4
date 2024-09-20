@@ -125,7 +125,61 @@ Visualize the data to get insights into the distribution of key variables and th
         macro avg          0.84      0.84      0.84        61
         weighted avg       0.84      0.84      0.84        61
   
-###    Block 27 Workshop - 
+###    Block 27 Workshop - Classification and Applications Part II
+
+1. Data Preprocessing:
+
+   Clean and process the dataset, handling missing values and encoding categorical variables.
+
+        - There are some ‘?’ instead of values in all columns. Replace them with the mode values.
+        - Use fillna().
+
+2. Feature Engineering:
+   
+   Create new features if relevant and apply feature scaling.
+
+   
+4. Exploratory Data Analysis (EDA):
+
+   Visualize the distribution of income levels and relationships between features and income.
+
+        - Fix the imbalanced dataset using the oversampling method.
+        - Use RandomOverSampler from imblearn.over_sampling. 
+        - Split the predictor and target variables and fit them using fit().
+
+4. Model Selection and Training:
+
+   Choose KNN, Naive Bayes, and Random Forest as classification algorithms and train them on the data.
+
+        - Import the models from sklearn.linear_model, sklearn.neighbor, sklearn.svm, sklearn.naive_bayes, sklearn.tree, and sklearn.ensemble library.
+        
+        - Use .fit() to fit the training data.
+
+5. Model Evaluation:
+
+   Evaluate model accuracy and F1 score.
+
+        - Import the models from sklearn.metrics.    
+
+6. Hyperparameter Tuning:
+
+   Optimize model hyperparameters for improved performance.
+   
+8. Model Comparison and Insights:
+
+   Compare algorithm performance and provide insights on strengths and weaknesses.
+   
+10. Visualization and Reporting:
+
+     Create visualizations and a comprehensive report.
+
+        - Use classification_report from sklearn.metrics.
+
+9. Final Model Selection:
+
+   Create a report summarizing the details of the finalized model for RetailCo.
+
+
 ###    Block 28 Workshop - 
 ###    Block 29 Workshop - 
 ###    Block 30 Workshop - 
