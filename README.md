@@ -52,13 +52,18 @@ Goals:
 ###    Block 25 Workshop - Regression and Its Applications
 
 Goals:
-
-1. Import the required libraries for data preparation and visualization. 
-2. Read the input dataset and use visualizations to understand the data. 
-3. Create a function create_ingredient_df() to analyze the ingredients used in each type of cuisine.
-4. Prepare the data for regression. 
-5. Train a logistic regression model. 
-6. Make predictions with the model and evaluate the results. 
+    
+    1. Import the required libraries for data preparation and visualization. 
+    
+    2. Read the input dataset and use visualizations to understand the data. 
+    
+    3. Create a function create_ingredient_df() to analyze the ingredients used in each type of cuisine.
+    
+    4. Prepare the data for regression. 
+    
+    5. Train a logistic regression model. 
+    
+    6. Make predictions with the model and evaluate the results. 
 
 
 
