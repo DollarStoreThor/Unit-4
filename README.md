@@ -307,13 +307,18 @@ Goals:
 
 
 
-###    Block 30 Workshop - 
+###    Block 30 Workshop - Time Series Modeling
 
 1: Data Exploration and Visualization 
 
     1.1 Import libraries: pandas, matplotlib.pyplot, numpy. 
-
     1.2 Load the dataset and convert Month to datetime format.  
+![Champange Sales - Data](https://github.com/user-attachments/assets/e328a551-03db-40c0-a6a8-9f2d0a163df4)
+![Champange Sales - Data Conversion to DateTime](https://github.com/user-attachments/assets/3bf4f2c8-ef86-4290-b41d-24526346ec00)
+![Champange Sales - By Year to Show Seasonality](https://github.com/user-attachments/assets/2ce52c56-e332-47dc-8655-2210358467f0)
+![Champange Sales - Boxplot to Show Seasonality](https://github.com/user-attachments/assets/084e3009-fa57-42fb-8058-7db9766a0175)
+
+    
 
 2: Sales Pattern Analysis 
 
@@ -324,6 +329,9 @@ Goals:
     2.3 Create a box plot with df.boxplot() for sales distribution. 
 
     2.4 Extract X (Month) and y (Sales). 
+
+![Champange Data Lag Plot to Determine Best Lag ](https://github.com/user-attachments/assets/75b3cd96-6283-46b8-a001-7d96907cb39f)
+
 
 3: Data Preprocessing and Splitting 
 
@@ -338,13 +346,27 @@ Goals:
     4.3 Fit the ARIMA model. 
 
     4.4 Predict sales with ARIMA using .predict(). 
+![Autocorrelation and Partial Autocorrelation to find Q and P](https://github.com/user-attachments/assets/c1f6a52b-3166-41d8-9797-d5b95d853fae)
+
+![Inital Champange Sales Stationary Test](https://github.com/user-attachments/assets/b923282c-3a27-46a4-9dd5-a0d9449d57bb)
+![Log of Inital Champange Sales Stationary Test](https://github.com/user-attachments/assets/4c3d145d-8e5c-4d5e-b3aa-b288755dfbf4)
+![Log of Inital Champange Sales Stationary Test Shifted by 4 Months](https://github.com/user-attachments/assets/268172b3-16c3-4fee-8cc4-b90523d6dc03)
+
+![Champange Data - Decompositions](https://github.com/user-attachments/assets/ec768fef-2366-415c-9dc1-c41ba328e8fd)
+
+![Champange Data Autocorrelation Plot to Determine Best Lag ](https://github.com/user-attachments/assets/ca90e320-711e-4bef-ad8f-cff90cbff777)
+
 
 5: Model Evaluation 
 
     5.1 Calculate and print MSE for model evaluation. 
+Mean squared error: 649.341
 
-###    Block 31 Workshop - 
-###    Block 32 Workshop - 
+![SARIMAX Results](https://github.com/user-attachments/assets/9ba4af73-adcc-42d3-9fec-5bbc186ede01)
+![ARIMA Model Time Series Predictions of Sales](https://github.com/user-attachments/assets/0ff9bba0-b9f3-4f39-919f-ae67da83de4f)
+
+###    Block 31 Workshop - Ensemble Learning
+###    Block 32 Workshop - Recommender Systems
 
     
    
