@@ -308,9 +308,44 @@ Goals:
 
 
 ###    Block 30 Workshop - 
+
+1: Data Exploration and Visualization 
+
+    1.1 Import libraries: pandas, matplotlib.pyplot, numpy. 
+
+    1.2 Load the dataset and convert Month to datetime format.  
+
+2: Sales Pattern Analysis 
+
+    2.1 Plot sales using plt.plot(). Set the title, labels, grid, and display with plt.show(). 
+
+    2.2 Extract the month from the Month column using .dt.month. 
+
+    2.3 Create a box plot with df.boxplot() for sales distribution. 
+
+    2.4 Extract X (Month) and y (Sales). 
+
+3: Data Preprocessing and Splitting 
+
+    3.1 Split using train_test_split() with test_size=0.2 and shuffle=False. 
+
+4: Build the ARIMA Model 
+
+    4.1 Import libraries: sklearn.model_selection and statsmodels.tsa.arima.model. 
+
+    4.2 Define ARIMA order: p, d, q. 
+
+    4.3 Fit the ARIMA model. 
+
+    4.4 Predict sales with ARIMA using .predict(). 
+
+5: Model Evaluation 
+
+    5.1 Calculate and print MSE for model evaluation. 
+
 ###    Block 31 Workshop - 
 ###    Block 32 Workshop - 
-   
+
     
    
    
