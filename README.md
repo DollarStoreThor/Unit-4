@@ -403,10 +403,70 @@ Mean squared error: 649.341
 
 ###    Block 32 Workshop - Recommender Systems
 
-    
+
+1.     Importing the Libraries
+   
+![Data Description](https://github.com/user-attachments/assets/93eaa7e4-87f6-4778-ab1b-9d1bbfd1f730)
+
+![ratings png](https://github.com/user-attachments/assets/738b16fa-6ad8-4ccf-8bc0-15a2ce5a1413)
+
+![movies png](https://github.com/user-attachments/assets/5b5c6fe7-6f9b-44bc-a9bd-bb2d7bd63f96)
+
+-  Load the necessary libraries to begin the analysis and visualization process. 
+- Loading and Merging Datasets 
+- Load the movies.csv and ratings.csv datasets, which contain information about movies and user ratings, respectively. 
+- Combine both DataFrames using the common attribute movieId to create a unified view of the data for analysis and recommendations. 
+
+2.     Visualizing the Dataset
+   
+-Explore the dataset visually to gain insights into its content and distribution.
+
+![Count  per Rating](https://github.com/user-attachments/assets/e1925f60-6067-4af5-a485-99d54e29c2b1)
+
+![Occurence of Movie Genre](https://github.com/user-attachments/assets/80c3a156-2585-47d3-b9e5-b313c35272fb)
+
+![Co-occurence of Movie Genres](https://github.com/user-attachments/assets/e2cd7f0f-a09c-4e70-9e0f-20d705b8f1cb)
+
+![User Id vs Average User Rating](https://github.com/user-attachments/assets/0d476fc6-a2ce-4820-9368-e78003f07c5b)
+
+![Log of User Id vs Occurence of Ratings](https://github.com/user-attachments/assets/422bcfd1-88a4-462c-912f-6a03b3cd0648)
+
+![User Id vs Occurence of Ratings](https://github.com/user-attachments/assets/d284d99a-4163-40b5-a37e-728da40e1a01)
+
+3.     Creating a User-Item Matrix
+   
+-Build a User-Item Matrix, where rows represent users and columns represent movies. Each cell contains the rating given by a user to a specific movie.
+
+![Heatmap Of user Id Ratings for Each Movie Before NaN Conversion](https://github.com/user-attachments/assets/d6b84778-c0c2-491b-afa9-b79e0fd65566)
+
+4.     Building a Memory-Based Collaborative Filtering
+   
+- User-Based Collaborative Filtering 
+- Fill the NaN values in the User-Item Matrix with the mean ratings of corresponding users. This prepares the data for calculating user similarities. 
+- Calculate Pearson correlation coefficients between users to determine how similar their preferences are. 
+- Choose the correlation values of all users with User 1 for further analysis. 
+- Sort the user 1 correlations in descending order to identify the most similar users. 
+- Remove the NaN values generated during correlation calculation for accurate analysis. 
+- Select the top 50 users that exhibit a high correlation with User 1, indicating similarity in preferences. 
+- Predict the rating that User 1 might give the movie with movieId 32. This prediction is based on the ratings of the top 50 similar users.
+- 
+![User Rating Correlation](https://github.com/user-attachments/assets/be782bca-bbff-4455-945e-d35fdb8a0e79)
+
+![Heatmap Of user Id Ratings for Each Movie After NaN Conversion](https://github.com/user-attachments/assets/8729f7e4-5496-4488-b88e-dbe31725862c)
+
+5.     Item-Based Collaborative Filtering
+   
+- Fill the NaN values in the User-Item Matrix columns with the mean ratings of corresponding movies. This prepares the data for calculating movie similarities. 
+- Calculate Pearson correlation coefficients between movies to identify how similar they are in terms of user ratings. 
+- Choose the correlation values of all movies with the movie Jurassic Park (1993) for further analysis. 
+- Sort the correlations for the movie Jurassic Park (1993) in descending order to identify the most similar movies. 
+- Eliminate the NaN values in the correlation matrix for accurate analysis. 
+- Identify the top 10 movies that are similar to the movie Jurassic Park (1993) based on correlation. 
    
    
-    
-    
+    ![Item Based Colaborative Filtering Based on Movie Similarites - Predictions](https://github.com/user-attachments/assets/ffa1685a-877f-4462-86d2-2af37a8814df)
+  
+![Item Based Colaborative Filering Heatmap with NaN Conversion](https://github.com/user-attachments/assets/c26e271c-a0dc-4226-b0e1-a57e91159f29)
+
     
     
