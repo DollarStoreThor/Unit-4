@@ -366,6 +366,41 @@ Mean squared error: 649.341
 ![ARIMA Model Time Series Predictions of Sales](https://github.com/user-attachments/assets/0ff9bba0-b9f3-4f39-919f-ae67da83de4f)
 
 ###    Block 31 Workshop - Ensemble Learning
+
+1. Import the necessary libraries and load the dataset. 
+
+2. Plot a pie chart and a histogram plot on the SepsisLabel target variable.
+   
+![Balenced Classes with SMOTE](https://github.com/user-attachments/assets/168e5b91-97b7-4fdc-98ba-720995849bd6)
+
+![Imbalenced Classes](https://github.com/user-attachments/assets/61d76faa-8e1a-40d8-b8fb-ae1f3e6a1584)
+
+4. Prepare the dataset for data modeling. 
+
+        3.1 Handle the imbalance of the target variable using any upsampling technique. 
+
+5. Create dataset X by excluding label column. 
+
+6. Create dataset Y by only label column. 
+
+7. Perform a train test split in the ratio 80:20 and random_state=0. 
+
+8. Perform Data Modeling. 
+
+        7.1 Train a RandomForestClassifier, AdaBoostClassifier, and GradientBoostingClassifier. 
+
+        7.2 Perform model evaluation on Accuracy Score and Log Loss and identify the best model. 
+
+        7.3 Compare machine learning algorithms consistently.
+![Ensemble Accuracies](https://github.com/user-attachments/assets/e360ba09-81ae-4cb7-b39b-c85e8b6dfe2d)   
+
+![Ensemble Accuracies - Bar Chart](https://github.com/user-attachments/assets/2b34c135-c544-4a2b-8728-797119aa75e5)
+
+![Ensemble Loss - Bar Chart](https://github.com/user-attachments/assets/a8fc3ab6-5206-4710-a5b8-7616fd490f85)
+
+![Ensemble Loss](https://github.com/user-attachments/assets/a46f011a-fdd2-4b32-b7b5-365deffae500)
+
+
 ###    Block 32 Workshop - Recommender Systems
 
     
